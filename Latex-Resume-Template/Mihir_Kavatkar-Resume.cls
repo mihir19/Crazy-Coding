@@ -1,3 +1,4 @@
+%% Credits to ShareLatex
 %Latest compiler format
 \NeedsTeXFormat{LaTeX2e}
 %reference your own class file
@@ -6,12 +7,12 @@
 \LoadClass[oneside]{article}
 \RequirePackage{titlesec}
 \RequirePackage{geometry}
-	\geometry{
-		letterpaper,
-		left=1in,
-		right=1in,
-		top=1in,
-		bottom=1in}
+\geometry{
+	letterpaper,
+	left=1in,
+	right=1in,
+	top=1in,
+	bottom=1in}
 \RequirePackage{enumitem}
 \RequirePackage{libertine}
 
@@ -65,7 +66,7 @@
 		\item #2
 		\item #3
 	\end{itemize}
-	}
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Prints your name on top %%
 \newcommand{\topname}[1]{
@@ -74,7 +75,7 @@
 %%  Command for Contact Information  %%
 \newcommand{\contact}[5]{
 	\centering{#1 {\large\textperiodcentered} #2 {\large\textperiodcentered} #3
-	{\Large} #4 \ {\Large} #5}
+		{\Large} #4 \ {\Large} #5}
 }
 
 %%  Following are commands for your description which gives bullets  %%
