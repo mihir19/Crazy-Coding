@@ -88,6 +88,37 @@
 		%\item #3
 	\end{itemize}
 }
+\newcommand{\currentwork}[7]{
+	\begin{itemize}
+		\small
+		\itemsep0em
+		\item #1
+		\item #2
+		\item #3
+		\item #4
+		\item #5
+		\item #6
+	\end{itemize}
+}
+\newcommand{\threebullets}[4]{
+	\begin{itemize}
+		\small
+		\itemsep0em
+		\item #1
+		\item #2
+		\item #3
+	\end{itemize}
+}
+\newcommand{\fourbullets}[5]{
+	\begin{itemize}
+		\small
+		\itemsep0em
+		\item #1
+		\item #2
+		\item #3
+		\item #4
+	\end{itemize}
+}
 \newcommand{\workitemsAdditional}[1]{
 	\begin{itemize}
 		\small
